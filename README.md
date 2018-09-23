@@ -14,7 +14,12 @@ pip3 install -r requirements.tx
 
 Create a config.yml from the config.yml.template populating values for your picar setup.
 
-machine = meta-raspberry machine specification to populate on the local.conf
-wireless_ssid = wireless ssid that you want the raspberry pi to connect to if you want wifi
-wireless_psk = Password for the wireless ssid that you want to connect to
-root_passoword = Password for the root user on the yocto installation
+* machine = meta-raspberry machine specification to populate on the local.conf
+* wireless_ssid = wireless ssid that you want the raspberry pi to connect to if you want wifi
+* wireless_psk = Password for the wireless ssid that you want to connect to
+* root_passoword = Password for the root user on the yocto installation
+
+Run configSetup.py to generate the configuration files from the template files. Then generated files will be placed in
+a build folder
+
+Run updateconfig.sh in the vagrant image to update the rpi-build files for the yocto build directory
