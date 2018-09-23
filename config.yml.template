@@ -1,0 +1,9 @@
+---
+machine: "raspberrypi0-wifi"
+poky_dir: "/home/vagrant/poky"
+openembed_dir: "/home/vagrant/meta-openembedded"
+meta_raspberry_dir: "/home/vagrant/meta-raspberrypi"
+workspace_dir: "/home/vagrant/workspace"
+root_password: ""
+wireless_ssid: ""
+wireless_psk: ""
